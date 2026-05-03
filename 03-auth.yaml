@@ -16,6 +16,16 @@ data:
       - roboshop-admin
       userarn: arn:aws:iam::442940292368:user/ramesh
       username: ramesh
+
+     - groups:  
+      - trainee-group
+      userarn: arn:aws:iam::442940292368:user/ram
+      username: ram
+
+     - groups:  
+      - trainee-group
+      userarn: arn:aws:iam::442940292368:user/ram
+      username: sam 
       
     
 kind: ConfigMap
